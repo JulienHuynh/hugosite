@@ -1,4 +1,13 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+baseURL = 'https://julienhuynh.github.io/hugosite/'
+languageCode = "fr-fr"
+title = "Blog Tutos et Conseils"
+theme = "ananke"
+
+[params]
+description = "Un blog personnel sur le développement web, la programmation et les nouvelles technologies."
+# Paramètres spécifiques au thème Ananke
+showReadingTime = true
+
+favicon = "/hugosite/images/logo.png"
+site_logo = "/hugosite/images/logo.png"
+bg_image = "/hugosite/images/DSC02566.jpeg"
